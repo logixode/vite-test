@@ -19,7 +19,7 @@ import Vue from 'vue';
 import HelloWorld from '../components/HelloWorld.vue'
 import InfiniteScroll from '../components/InfiniteScroll.vue'
 
-let components = { InfiniteScroll }
+let components = { HelloWorld, InfiniteScroll }
 Object.keys(components).forEach((key) => {
   window[key] = (() => {
     const installable = components[key];
